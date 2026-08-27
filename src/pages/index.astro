@@ -1,0 +1,17 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Plate from '@198x-ui/components/Plate.astro';
+---
+
+<BaseLayout>
+  <main>
+    <Plate prefix="forge" project="forge" size={40} href="/" />
+    <h1>The workbench where 198x code gets written.</h1>
+    <p class="lead">Forge198x will be the family's development environment — editor, assembler, emulator and debugger in one place, for machines whose original toolchains no longer run on anything you own.</p>
+    <p class="status">Deferred. The pieces it would compose — Asm198x, Emu198x, Debug198x — are still being built separately.</p>
+    <footer>
+      One of the <a href="https://github.com/forge198x">198x family</a>. The
+      wordmark, palette and type come from <a href="https://github.com/stevehill1981/198x-ui">198x-ui</a>.
+    </footer>
+  </main>
+</BaseLayout>
